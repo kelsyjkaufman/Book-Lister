@@ -1,0 +1,92 @@
+/* 
+    Document   : QuoteLister
+    Created on : Feb 2, 2010, 10:42:06 AM
+    Author     : jcooley
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    color: #ffffff;
+    background-color: #5a5749;
+    font-family: Verdana;
+    font-size: 0.8em;
+    text-align:center;
+}
+
+h2 {
+   color: navy;
+   font-family: Trebuchet MS;
+   margin-top: 1em;
+}
+
+h2#topHeading {
+   color: #8cac63;
+   font-family: Tekton Pro, Arial;
+   font-size: 1.8em;
+   font-weight: 800;
+   text-align: center;
+}
+
+blockquote {
+   padding: 0;
+}
+
+.author {
+   font-weight: 600;
+   font-size: 0.7em;
+   color: #8cac63;
+   font-family: Arial;
+}
+
+#bookTitle {
+   background-color: peachpuff;
+   color: #ffffff;
+   border-style: ridge;
+   border-width: 2px;
+   font-family: Tekton Pro;
+}
+
+#container {
+    background-color: #3f434c;
+    width: 800px;
+    margin: 0 auto;
+    padding: .2em 1em 1em;
+}
+
+.bookGenre {
+   background-color: #32353c;
+   width: 600px;
+   margin: 2em auto;
+   padding-left: 4px;
+   border-left: 1px dotted #8cac63;
+   border-bottom: 1px solid #8cac63;
+   text-align: left;
+}
+
+div.bookGenre h3 {
+   color: #ff8757;
+   font-family: Arial;
+}
+
+a#newBookLink {
+    color: #ffffff;
+    font-family: Arial;
+}
+
+#linkFooter {
+    text-align: center;
+}
+
+a {
+    color: #fff; 
+}
+
+a:hover {
+    color: #ddd;
+}
